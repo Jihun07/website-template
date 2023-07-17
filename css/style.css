@@ -63,28 +63,15 @@ body {
   height: auto;
 }
 
-#navbarSupportedContent {
-  width: 100%;
-  background-color: #f9ece6;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 20px 0px;
-  border-radius: 15px 15px 0 0;
-}
-
-
-
-
 .navbar-brand {
   margin: 15px 0;
   padding: 0;
 }
 
 .navbar-brand span {
-  font-size: 35px;
+  font-size: 65px;
   font-weight: bold;
-  color: #000000;
+  /* color: #000000; */
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -107,20 +94,20 @@ body {
 
 
 /*end header section*/
-.slider_section .slider_container {
+.slider_section2 .slider_container {
   color: #fefefe;
-  background-color: #f89cab;
+  background-color: #7674b8;
   padding: 25px;
-  border-radius: 0 0 15px 15px;
+
 }
 
-.slider_section .row {
+.slider_section2 .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.slider_section .img-box {
+.slider_section2 .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,12 +118,91 @@ body {
 }
 
 
-.slider_section .detail-box h1 {
+.slider_section2 .detail-box h1 {
   font-weight: bold;
   font-size: 3.5rem;
   margin-bottom: 10px;
 }
 
+.slider_section2 .img-box img {
+  max-width: 1000px;
+  max-height: 400px;
+  z-index: 0;
+}
+/* --- */
+
+.slider_section6 .slider_container {
+  color: #fefefe;
+  background-color: #4a8437;
+  padding: 25px;
+
+}
+
+.slider_section6 .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.slider_section6 .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 45px;
+}
+
+
+.slider_section6 .detail-box h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+} 
+
+.slider_section6 .img-box img {
+  max-width: 1000px;
+  max-height: 400px;
+  z-index: 0;
+}
+/* --- */
+
+.slider_section1 {
+  color: #fefefe;
+  background-color: #6331a5;
+  padding: 25px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.slider_section3 {
+  color: #fefefe;
+  background-color: #6331a5;
+  padding: 25px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.slider_section4 {
+  color: #fefefe;
+  background-color: transparent;
+  padding: 50px;
+}
+
+.slider_section5 {
+  color: #fefefe;
+  background-color: #366a28;
+  padding: 25px;
+  border-radius: 15px 15px 0px 0px;
+}
+.slider_section7 {
+  color: #fefefe;
+  background-color: #366a28;
+  padding: 25px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+/* --- */
 
 
 .shop_section .heading_container {
@@ -169,15 +235,11 @@ body {
   height: 230px;
 }
 
-.shop_section .box .img-box img {
-  max-width: 145px;
-  max-height: 145px;
+.shop_section .box .img-box img  {
+  max-width: 175px;
+  max-height: 175px;
 }
 
-/* .slider_section .img-box img {
-  max-width: 400px;
-  max-height: 400px;
-} */
 
 .shop_section .box .detail-box {
   display: -webkit-box;
@@ -204,9 +266,9 @@ body {
 .shop_section .btn-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #f16179;
+  background-color: #6168f1;
   color: #ffffff;
-  border: 1px solid #f16179;
+  border: 1px solid #6168f1;
   border-radius: 5px;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -214,6 +276,42 @@ body {
 
 .shop_section .btn-box a:hover {
   background-color: transparent;
-  color: #f16179;
+  color: #6168f1;
 }
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/* How microplastics affect your health */
+/* .ytlink img{
+  max-width: 100px;
+  max-height: 35px;
+}
+.ytlink {
+  padding: 0 100px;
+} */
+.videox {
+  display: flex;
+  padding: px 20px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+
+.info-bar img{
+  -webkit-filter: invert(1);
+   filter: invert(1);
+  max-width: 25px;
+  max-height: 25px;
+}
+
+
 /*# sourceMappingURL=style.css.map */
