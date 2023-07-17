@@ -125,8 +125,7 @@ body {
 }
 
 .slider_section2 .img-box img {
-  max-width: 1000px;
-  max-height: 400px;
+  max-height: 300px;
   z-index: 0;
 }
 /* --- */
